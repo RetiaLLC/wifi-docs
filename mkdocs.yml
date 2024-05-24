@@ -1,0 +1,57 @@
+site_name: WiFi Nugget
+copyright: Created with <3 by autmn for Retia
+site_url: https://wifi.nugget.dev
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        primary: indigo
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+        primary: indigo
+  logo: assets/retia-white.png
+  favicon: assets/retia-white.png
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: True
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: copiable
+          class: copiable
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra:
+  generator: false
+  social:
+    - icon: material/store
+      link: https://retia.io
+    - icon: fontawesome/brands/github
+      link: https://github.com/RetiaLLC
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@retiallc
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/mc96x3cWwV
