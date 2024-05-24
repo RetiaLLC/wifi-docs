@@ -1,5 +1,5 @@
-# USB Nugget
+# WiFi Nugget
 
-This repository hosts source documentation files for the USB Nugget.
+This repository hosts source documentation files for the WiFi Nugget.
 
-To view it live, visit the [deployment](https://usb.nugget.dev)
+To view it live, visit the [deployment](https://wifi.nugget.dev)
